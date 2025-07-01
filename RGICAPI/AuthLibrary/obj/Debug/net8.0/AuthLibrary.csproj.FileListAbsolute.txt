@@ -1,0 +1,15 @@
+D:\Nidhi\Node_Test_Proj\RGICAPI\AuthLibrary\obj\Debug\net8.0\AuthLibrary.csproj.AssemblyReference.cache
+D:\Nidhi\Node_Test_Proj\RGICAPI\AuthLibrary\obj\Debug\net8.0\AuthLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nidhi\Node_Test_Proj\RGICAPI\AuthLibrary\obj\Debug\net8.0\AuthLibrary.AssemblyInfoInputs.cache
+D:\Nidhi\Node_Test_Proj\RGICAPI\AuthLibrary\obj\Debug\net8.0\AuthLibrary.AssemblyInfo.cs
+D:\Nidhi\Node_Test_Proj\RGICAPI\AuthLibrary\obj\Debug\net8.0\AuthLibrary.csproj.CoreCompileInputs.cache
+D:\Nidhi\Node_Test_Proj\RGICAPI\AuthLibrary\bin\Debug\net8.0\AuthLibrary.deps.json
+D:\Nidhi\Node_Test_Proj\RGICAPI\AuthLibrary\bin\Debug\net8.0\AuthLibrary.dll
+D:\Nidhi\Node_Test_Proj\RGICAPI\AuthLibrary\bin\Debug\net8.0\AuthLibrary.pdb
+D:\Nidhi\Node_Test_Proj\RGICAPI\AuthLibrary\bin\Debug\net8.0\CRUDOperations.dll
+D:\Nidhi\Node_Test_Proj\RGICAPI\AuthLibrary\bin\Debug\net8.0\CRUDOperations.pdb
+D:\Nidhi\Node_Test_Proj\RGICAPI\AuthLibrary\obj\Debug\net8.0\AuthLibr.A3F75004.Up2Date
+D:\Nidhi\Node_Test_Proj\RGICAPI\AuthLibrary\obj\Debug\net8.0\AuthLibrary.dll
+D:\Nidhi\Node_Test_Proj\RGICAPI\AuthLibrary\obj\Debug\net8.0\refint\AuthLibrary.dll
+D:\Nidhi\Node_Test_Proj\RGICAPI\AuthLibrary\obj\Debug\net8.0\AuthLibrary.pdb
+D:\Nidhi\Node_Test_Proj\RGICAPI\AuthLibrary\obj\Debug\net8.0\ref\AuthLibrary.dll

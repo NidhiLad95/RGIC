@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xml-header>
+	<Success>
+		<password-reset-mail-success>Forgot password link send successfully</password-reset-mail-success>
+	</Success>
+</xml-header>

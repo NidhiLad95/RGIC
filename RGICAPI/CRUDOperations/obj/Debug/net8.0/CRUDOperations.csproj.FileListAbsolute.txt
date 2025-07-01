@@ -1,0 +1,12 @@
+D:\Nidhi\Node_Test_Proj\RGICAPI\CRUDOperations\bin\Debug\net8.0\CRUDOperations.deps.json
+D:\Nidhi\Node_Test_Proj\RGICAPI\CRUDOperations\bin\Debug\net8.0\CRUDOperations.dll
+D:\Nidhi\Node_Test_Proj\RGICAPI\CRUDOperations\bin\Debug\net8.0\CRUDOperations.pdb
+D:\Nidhi\Node_Test_Proj\RGICAPI\CRUDOperations\obj\Debug\net8.0\CRUDOperations.csproj.AssemblyReference.cache
+D:\Nidhi\Node_Test_Proj\RGICAPI\CRUDOperations\obj\Debug\net8.0\CRUDOperations.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nidhi\Node_Test_Proj\RGICAPI\CRUDOperations\obj\Debug\net8.0\CRUDOperations.AssemblyInfoInputs.cache
+D:\Nidhi\Node_Test_Proj\RGICAPI\CRUDOperations\obj\Debug\net8.0\CRUDOperations.AssemblyInfo.cs
+D:\Nidhi\Node_Test_Proj\RGICAPI\CRUDOperations\obj\Debug\net8.0\CRUDOperations.csproj.CoreCompileInputs.cache
+D:\Nidhi\Node_Test_Proj\RGICAPI\CRUDOperations\obj\Debug\net8.0\CRUDOperations.dll
+D:\Nidhi\Node_Test_Proj\RGICAPI\CRUDOperations\obj\Debug\net8.0\refint\CRUDOperations.dll
+D:\Nidhi\Node_Test_Proj\RGICAPI\CRUDOperations\obj\Debug\net8.0\CRUDOperations.pdb
+D:\Nidhi\Node_Test_Proj\RGICAPI\CRUDOperations\obj\Debug\net8.0\ref\CRUDOperations.dll

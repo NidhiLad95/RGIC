@@ -1,0 +1,6 @@
+@RGICAPI_HostAddress = http://localhost:5150
+
+GET {{RGICAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

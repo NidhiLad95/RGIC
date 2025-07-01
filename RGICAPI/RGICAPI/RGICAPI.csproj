@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.17" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AuthLibrary\AuthLibrary.csproj" />
+    <ProjectReference Include="..\CRUDOperations\CRUDOperations.csproj" />
+    <ProjectReference Include="..\RGIC.Core\RGIC.Core.csproj" />
+    <ProjectReference Include="..\RGIC.Infrastructure\RGIC.Infrastructure.csproj" />
+    <ProjectReference Include="..\RGIC.Repositories\RGIC.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
