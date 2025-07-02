@@ -1,0 +1,295 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GIT_Repos\\RGIC\\RGICAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{819BE814-C0C0-446C-9232-0C26411954A6}|RGICAPI\\RGICAPI.csproj|d:\\git_repos\\rgic\\rgicapi\\rgicapi\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819BE814-C0C0-446C-9232-0C26411954A6}|RGICAPI\\RGICAPI.csproj|solutionrelative:rgicapi\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819BE814-C0C0-446C-9232-0C26411954A6}|RGICAPI\\RGICAPI.csproj|d:\\git_repos\\rgic\\rgicapi\\rgicapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{819BE814-C0C0-446C-9232-0C26411954A6}|RGICAPI\\RGICAPI.csproj|solutionrelative:rgicapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819BE814-C0C0-446C-9232-0C26411954A6}|RGICAPI\\RGICAPI.csproj|d:\\git_repos\\rgic\\rgicapi\\rgicapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819BE814-C0C0-446C-9232-0C26411954A6}|RGICAPI\\RGICAPI.csproj|solutionrelative:rgicapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819BE814-C0C0-446C-9232-0C26411954A6}|RGICAPI\\RGICAPI.csproj|d:\\git_repos\\rgic\\rgicapi\\rgicapi\\services\\configs\\depandancyinjectionregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819BE814-C0C0-446C-9232-0C26411954A6}|RGICAPI\\RGICAPI.csproj|solutionrelative:rgicapi\\services\\configs\\depandancyinjectionregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B242A95-1D50-44B7-A284-20BD012E0277}|RGIC.Core\\RGIC.Core.csproj|d:\\git_repos\\rgic\\rgicapi\\rgic.core\\common\\icommonrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B242A95-1D50-44B7-A284-20BD012E0277}|RGIC.Core\\RGIC.Core.csproj|solutionrelative:rgic.core\\common\\icommonrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B242A95-1D50-44B7-A284-20BD012E0277}|RGIC.Core\\RGIC.Core.csproj|d:\\git_repos\\rgic\\rgicapi\\rgic.core\\account\\accountdtos\\dtologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B242A95-1D50-44B7-A284-20BD012E0277}|RGIC.Core\\RGIC.Core.csproj|solutionrelative:rgic.core\\account\\accountdtos\\dtologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819BE814-C0C0-446C-9232-0C26411954A6}|RGICAPI\\RGICAPI.csproj|d:\\git_repos\\rgic\\rgicapi\\rgicapi\\services\\filters\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819BE814-C0C0-446C-9232-0C26411954A6}|RGICAPI\\RGICAPI.csproj|solutionrelative:rgicapi\\services\\filters\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819BE814-C0C0-446C-9232-0C26411954A6}|RGICAPI\\RGICAPI.csproj|d:\\git_repos\\rgic\\rgicapi\\rgicapi\\services\\filters\\activitylogfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819BE814-C0C0-446C-9232-0C26411954A6}|RGICAPI\\RGICAPI.csproj|solutionrelative:rgicapi\\services\\filters\\activitylogfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819BE814-C0C0-446C-9232-0C26411954A6}|RGICAPI\\RGICAPI.csproj|d:\\git_repos\\rgic\\rgicapi\\rgicapi\\services\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819BE814-C0C0-446C-9232-0C26411954A6}|RGICAPI\\RGICAPI.csproj|solutionrelative:rgicapi\\services\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{612129A3-246F-464B-B196-F14A6F5DF935}|RGIC.Infrastructure\\RGIC.Infrastructure.csproj|d:\\git_repos\\rgic\\rgicapi\\rgic.infrastructure\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{612129A3-246F-464B-B196-F14A6F5DF935}|RGIC.Infrastructure\\RGIC.Infrastructure.csproj|solutionrelative:rgic.infrastructure\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{612129A3-246F-464B-B196-F14A6F5DF935}|RGIC.Infrastructure\\RGIC.Infrastructure.csproj|d:\\git_repos\\rgic\\rgicapi\\rgic.infrastructure\\rgichelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{612129A3-246F-464B-B196-F14A6F5DF935}|RGIC.Infrastructure\\RGIC.Infrastructure.csproj|solutionrelative:rgic.infrastructure\\rgichelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{612129A3-246F-464B-B196-F14A6F5DF935}|RGIC.Infrastructure\\RGIC.Infrastructure.csproj|d:\\git_repos\\rgic\\rgicapi\\rgic.infrastructure\\rgicexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{612129A3-246F-464B-B196-F14A6F5DF935}|RGIC.Infrastructure\\RGIC.Infrastructure.csproj|solutionrelative:rgic.infrastructure\\rgicexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{612129A3-246F-464B-B196-F14A6F5DF935}|RGIC.Infrastructure\\RGIC.Infrastructure.csproj|d:\\git_repos\\rgic\\rgicapi\\rgic.infrastructure\\dataprotectionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{612129A3-246F-464B-B196-F14A6F5DF935}|RGIC.Infrastructure\\RGIC.Infrastructure.csproj|solutionrelative:rgic.infrastructure\\dataprotectionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B242A95-1D50-44B7-A284-20BD012E0277}|RGIC.Core\\RGIC.Core.csproj|d:\\git_repos\\rgic\\rgicapi\\rgic.core\\account\\iaccountrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B242A95-1D50-44B7-A284-20BD012E0277}|RGIC.Core\\RGIC.Core.csproj|solutionrelative:rgic.core\\account\\iaccountrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B6DBB0-4294-4996-9A90-FB2F3497C540}|CRUDOperations\\CRUDOperations.csproj|d:\\git_repos\\rgic\\rgicapi\\crudoperations\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B6DBB0-4294-4996-9A90-FB2F3497C540}|CRUDOperations\\CRUDOperations.csproj|solutionrelative:crudoperations\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B6DBB0-4294-4996-9A90-FB2F3497C540}|CRUDOperations\\CRUDOperations.csproj|d:\\git_repos\\rgic\\rgicapi\\crudoperations\\crudoperationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B6DBB0-4294-4996-9A90-FB2F3497C540}|CRUDOperations\\CRUDOperations.csproj|solutionrelative:crudoperations\\crudoperationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E9DCA91-275E-4D71-8760-D35B02B9D56D}|AuthLibrary\\AuthLibrary.csproj|d:\\git_repos\\rgic\\rgicapi\\authlibrary\\iauthlib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E9DCA91-275E-4D71-8760-D35B02B9D56D}|AuthLibrary\\AuthLibrary.csproj|solutionrelative:authlibrary\\iauthlib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGICAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "RGICAPI\\appsettings.json",
+              "ToolTip": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGICAPI\\appsettings.json",
+              "RelativeToolTip": "RGICAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAADVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-02T06:49:37.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGICAPI\\Program.cs",
+              "RelativeDocumentMoniker": "RGICAPI\\Program.cs",
+              "ToolTip": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGICAPI\\Program.cs",
+              "RelativeToolTip": "RGICAPI\\Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAgwEgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T12:03:57.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepandancyInjectionRegister.cs",
+              "DocumentMoniker": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGICAPI\\Services\\Configs\\DepandancyInjectionRegister.cs",
+              "RelativeDocumentMoniker": "RGICAPI\\Services\\Configs\\DepandancyInjectionRegister.cs",
+              "ToolTip": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGICAPI\\Services\\Configs\\DepandancyInjectionRegister.cs",
+              "RelativeToolTip": "RGICAPI\\Services\\Configs\\DepandancyInjectionRegister.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T12:03:17.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICommonRepo.cs",
+              "DocumentMoniker": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGIC.Core\\Common\\ICommonRepo.cs",
+              "RelativeDocumentMoniker": "RGIC.Core\\Common\\ICommonRepo.cs",
+              "ToolTip": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGIC.Core\\Common\\ICommonRepo.cs",
+              "RelativeToolTip": "RGIC.Core\\Common\\ICommonRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T12:02:50.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DtoLogin.cs",
+              "DocumentMoniker": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGIC.Core\\Account\\AccountDTOs\\DtoLogin.cs",
+              "RelativeDocumentMoniker": "RGIC.Core\\Account\\AccountDTOs\\DtoLogin.cs",
+              "ToolTip": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGIC.Core\\Account\\AccountDTOs\\DtoLogin.cs",
+              "RelativeToolTip": "RGIC.Core\\Account\\AccountDTOs\\DtoLogin.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T12:02:33.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ValidationFilter.cs",
+              "DocumentMoniker": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGICAPI\\Services\\Filters\\ValidationFilter.cs",
+              "RelativeDocumentMoniker": "RGICAPI\\Services\\Filters\\ValidationFilter.cs",
+              "ToolTip": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGICAPI\\Services\\Filters\\ValidationFilter.cs",
+              "RelativeToolTip": "RGICAPI\\Services\\Filters\\ValidationFilter.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T12:01:23.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ActivityLogFilterAttribute.cs",
+              "DocumentMoniker": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGICAPI\\Services\\Filters\\ActivityLogFilterAttribute.cs",
+              "RelativeDocumentMoniker": "RGICAPI\\Services\\Filters\\ActivityLogFilterAttribute.cs",
+              "ToolTip": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGICAPI\\Services\\Filters\\ActivityLogFilterAttribute.cs",
+              "RelativeToolTip": "RGICAPI\\Services\\Filters\\ActivityLogFilterAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T12:01:17.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGICAPI\\Services\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "RGICAPI\\Services\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGICAPI\\Services\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "RGICAPI\\Services\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T12:00:52.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGICAPI\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "RGICAPI\\Controllers\\BaseController.cs",
+              "ToolTip": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGICAPI\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "RGICAPI\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T11:59:10.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Utilities.cs",
+              "DocumentMoniker": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGIC.Infrastructure\\Utilities.cs",
+              "RelativeDocumentMoniker": "RGIC.Infrastructure\\Utilities.cs",
+              "ToolTip": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGIC.Infrastructure\\Utilities.cs",
+              "RelativeToolTip": "RGIC.Infrastructure\\Utilities.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAUwFcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T11:57:31.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RGICHelpers.cs",
+              "DocumentMoniker": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGIC.Infrastructure\\RGICHelpers.cs",
+              "RelativeDocumentMoniker": "RGIC.Infrastructure\\RGICHelpers.cs",
+              "ToolTip": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGIC.Infrastructure\\RGICHelpers.cs",
+              "RelativeToolTip": "RGIC.Infrastructure\\RGICHelpers.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T11:57:14.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RGICException.cs",
+              "DocumentMoniker": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGIC.Infrastructure\\RGICException.cs",
+              "RelativeDocumentMoniker": "RGIC.Infrastructure\\RGICException.cs",
+              "ToolTip": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGIC.Infrastructure\\RGICException.cs",
+              "RelativeToolTip": "RGIC.Infrastructure\\RGICException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T11:57:06.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DataProtectionRepo.cs",
+              "DocumentMoniker": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGIC.Infrastructure\\DataProtectionRepo.cs",
+              "RelativeDocumentMoniker": "RGIC.Infrastructure\\DataProtectionRepo.cs",
+              "ToolTip": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGIC.Infrastructure\\DataProtectionRepo.cs",
+              "RelativeToolTip": "RGIC.Infrastructure\\DataProtectionRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T11:57:01.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAccountRepo.cs",
+              "DocumentMoniker": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGIC.Core\\Account\\IAccountRepo.cs",
+              "RelativeDocumentMoniker": "RGIC.Core\\Account\\IAccountRepo.cs",
+              "ToolTip": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGIC.Core\\Account\\IAccountRepo.cs",
+              "RelativeToolTip": "RGIC.Core\\Account\\IAccountRepo.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T11:56:28.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Response.cs",
+              "DocumentMoniker": "D:\\GIT_Repos\\RGIC\\RGICAPI\\CRUDOperations\\Response.cs",
+              "RelativeDocumentMoniker": "CRUDOperations\\Response.cs",
+              "ToolTip": "D:\\GIT_Repos\\RGIC\\RGICAPI\\CRUDOperations\\Response.cs",
+              "RelativeToolTip": "CRUDOperations\\Response.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAmwBMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T11:55:29.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CrudOperationService.cs",
+              "DocumentMoniker": "D:\\GIT_Repos\\RGIC\\RGICAPI\\CRUDOperations\\CrudOperationService.cs",
+              "RelativeDocumentMoniker": "CRUDOperations\\CrudOperationService.cs",
+              "ToolTip": "D:\\GIT_Repos\\RGIC\\RGICAPI\\CRUDOperations\\CrudOperationService.cs",
+              "RelativeToolTip": "CRUDOperations\\CrudOperationService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAwwDQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T11:55:07.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IAuthLib.cs",
+              "DocumentMoniker": "D:\\GIT_Repos\\RGIC\\RGICAPI\\AuthLibrary\\IAuthLib.cs",
+              "RelativeDocumentMoniker": "AuthLibrary\\IAuthLib.cs",
+              "ToolTip": "D:\\GIT_Repos\\RGIC\\RGICAPI\\AuthLibrary\\IAuthLib.cs",
+              "RelativeToolTip": "AuthLibrary\\IAuthLib.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T11:54:42.287Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

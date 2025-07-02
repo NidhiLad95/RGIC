@@ -4,7 +4,7 @@ using RGICAPI.Services.Filters;
 
 namespace RGICAPI.Controllers
 {
-    //[ServiceFilter(typeof(ActivityLogFilterAttribute)), ServiceFilter(typeof(ValidationFilter))]
+   // [ServiceFilter(typeof(ActivityLogFilterAttribute)), ServiceFilter(typeof(ValidationFilter))]
     public class BaseController : ControllerBase
     {
         protected string ControllerName => ControllerContext.RouteData?.Values["controller"]?.ToString() ?? "";

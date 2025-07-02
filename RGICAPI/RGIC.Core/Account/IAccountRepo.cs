@@ -15,28 +15,7 @@ namespace RGIC.Core.Account
 
         Task<Response<DtoUserInfoDetails>> Login(DtoLogin login);
 
-        //Task<Response<DtoInvalidAttemptResponse>> InvalidLoginAttemptChecker(DtoInvalidAttemptChecker attemptChecker);
-
         
-
-        //Task<Response<UserDetails>> GetUserBasicDetailsAsync(UserDetailsGetParam userDetailsGetParam);
-
-       // Task<AuthResponse> SaveTokenAsync(UserDetailsGetParam userDetailsGetParam);
-
-        
-        //Task<Response<DtoForgotPassword>> ForgotPasswordAsync(DtoForgotPasswordRequest forgotPasswordRequest);
-
-        //Task<Response<DtoForgotPassword>> ForgotPasswordVerifyAsync(DtoForgotPasswordRequest forgotPasswordRequest);
-        //Task<Response> CheckValidEmailAsync(DtoForgotPasswordRequest? forgotPasswordRequest);
-
-        //Task<AuthResponse> UserForgetPasswordValidatorAsync(DtoForgotPasswordValidatorAddParam forgotPasswordValidatorAddParam);
-
-        
-
-       // Task<Response> ChangePasswordUser(dtoChangePassword dtoChangePassword);
-
-
-
 
 
 

@@ -10,3 +10,16 @@ D:\Nidhi\Node_Test_Proj\RGICAPI\CRUDOperations\obj\Debug\net8.0\CRUDOperations.d
 D:\Nidhi\Node_Test_Proj\RGICAPI\CRUDOperations\obj\Debug\net8.0\refint\CRUDOperations.dll
 D:\Nidhi\Node_Test_Proj\RGICAPI\CRUDOperations\obj\Debug\net8.0\CRUDOperations.pdb
 D:\Nidhi\Node_Test_Proj\RGICAPI\CRUDOperations\obj\Debug\net8.0\ref\CRUDOperations.dll
+D:\GIT_Repos\RGIC\RGICAPI\CRUDOperations\bin\Debug\net8.0\CRUDOperations.deps.json
+D:\GIT_Repos\RGIC\RGICAPI\CRUDOperations\bin\Debug\net8.0\CRUDOperations.dll
+D:\GIT_Repos\RGIC\RGICAPI\CRUDOperations\bin\Debug\net8.0\CRUDOperations.pdb
+D:\GIT_Repos\RGIC\RGICAPI\CRUDOperations\obj\Debug\net8.0\CRUDOperations.csproj.AssemblyReference.cache
+D:\GIT_Repos\RGIC\RGICAPI\CRUDOperations\obj\Debug\net8.0\CRUDOperations.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT_Repos\RGIC\RGICAPI\CRUDOperations\obj\Debug\net8.0\CRUDOperations.AssemblyInfoInputs.cache
+D:\GIT_Repos\RGIC\RGICAPI\CRUDOperations\obj\Debug\net8.0\CRUDOperations.AssemblyInfo.cs
+D:\GIT_Repos\RGIC\RGICAPI\CRUDOperations\obj\Debug\net8.0\CRUDOperations.csproj.CoreCompileInputs.cache
+D:\GIT_Repos\RGIC\RGICAPI\CRUDOperations\obj\Debug\net8.0\CRUDOperations.sourcelink.json
+D:\GIT_Repos\RGIC\RGICAPI\CRUDOperations\obj\Debug\net8.0\CRUDOperations.dll
+D:\GIT_Repos\RGIC\RGICAPI\CRUDOperations\obj\Debug\net8.0\refint\CRUDOperations.dll
+D:\GIT_Repos\RGIC\RGICAPI\CRUDOperations\obj\Debug\net8.0\CRUDOperations.pdb
+D:\GIT_Repos\RGIC\RGICAPI\CRUDOperations\obj\Debug\net8.0\ref\CRUDOperations.dll
