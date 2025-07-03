@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y6XP+IilJls=",
+  "dgSpecHash": "xpml5aAx/XM=",
   "success": true,
-  "projectFilePath": "D:\\GIT_Repos\\RGIC\\RGICAPI\\CRUDOperations\\CRUDOperations.csproj",
+  "projectFilePath": "D:\\RGIC_Git\\RGICAPI\\CRUDOperations\\CRUDOperations.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\genxa\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\genxa\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -1,4 +1,5 @@
-﻿using Dapper;
+﻿using Azure;
+using Dapper;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
@@ -153,6 +154,18 @@ namespace CRUDOperations
         /// <param name="storedProcedureName"></param>
         /// <param name="parameters"></param>
         /// <returns></returns>
+        /// 
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="storedProcedureName"></param>
+        /// <returns></returns>
+        Task<ResponseGetList<T>> GetList<T>(string storedProcedureName);
+
+
+
         Task<ResponseList<T>> GetPaginatedList<T>(string storedProcedureName, DynamicParameters parameters);
 
         /// <summary>

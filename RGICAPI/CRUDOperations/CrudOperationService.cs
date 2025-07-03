@@ -1,4 +1,5 @@
-﻿using Dapper;
+﻿using Azure;
+using Dapper;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -492,7 +493,39 @@ namespace CRUDOperations
             }
         }
 
-        
+
+        public async Task<ResponseGetList<T>> GetList<T>(string storedProcedureName)
+        {
+            using var connections = Connection;
+            ResponseGetList<T> res = new ResponseGetList<T>();
+            try
+            {
+                var result = await connections.QueryMultipleAsync(
+                    sql: storedProcedureName,
+                    commandTimeout: null,
+                    commandType: CommandType.StoredProcedure
+                    );
+
+                res = await result.ReadFirstOrDefaultAsync<ResponseGetList<T>>();
+                res.Data = (await result.ReadAsync<T>()).ToList();
+
+                
+
+                
+                return res;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                if (connections.State == ConnectionState.Open)
+                    connections.Close();
+            }
+        }
+
+
 
         public async Task<ResponseList<T>> GetPaginatedList<T>(string storedProcedureName, object spParamsPocoMapper)
         {

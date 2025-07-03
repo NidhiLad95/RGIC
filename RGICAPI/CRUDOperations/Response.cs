@@ -21,16 +21,21 @@ namespace CRUDOperations
     }
 
 
-    
-
-    public class ResponseList<T>
+    public class ResponseGetList<T>
     {
         public bool Status { get; set; }
         public string? Message { get; set; }
         public List<T>? Data { get; set; }
-        public int TotalRecords { get; set; }
-        public int RecordsFiltered { get; set; }
+     }
 
+
+
+        public class ResponseList<T>
+    {
+        public bool Status { get; set; }
+        public string? Message { get; set; }
+        public List<T>? Data { get; set; }
+        
     }
 
 

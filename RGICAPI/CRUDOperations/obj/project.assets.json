@@ -1751,11 +1751,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GIT_Repos\\RGIC\\RGICAPI\\CRUDOperations\\CRUDOperations.csproj",
+      "projectUniqueName": "D:\\RGIC_Git\\RGICAPI\\CRUDOperations\\CRUDOperations.csproj",
       "projectName": "CRUDOperations",
-      "projectPath": "D:\\GIT_Repos\\RGIC\\RGICAPI\\CRUDOperations\\CRUDOperations.csproj",
+      "projectPath": "D:\\RGIC_Git\\RGICAPI\\CRUDOperations\\CRUDOperations.csproj",
       "packagesPath": "C:\\Users\\genxa\\.nuget\\packages\\",
-      "outputPath": "D:\\GIT_Repos\\RGIC\\RGICAPI\\CRUDOperations\\obj\\",
+      "outputPath": "D:\\RGIC_Git\\RGICAPI\\CRUDOperations\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

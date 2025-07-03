@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGIC.Core\\RGIC.Core.csproj": {}
+    "D:\\RGIC_Git\\RGICAPI\\RGIC.Core\\RGIC.Core.csproj": {}
   },
   "projects": {
-    "D:\\GIT_Repos\\RGIC\\RGICAPI\\AuthLibrary\\AuthLibrary.csproj": {
+    "D:\\RGIC_Git\\RGICAPI\\AuthLibrary\\AuthLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GIT_Repos\\RGIC\\RGICAPI\\AuthLibrary\\AuthLibrary.csproj",
+        "projectUniqueName": "D:\\RGIC_Git\\RGICAPI\\AuthLibrary\\AuthLibrary.csproj",
         "projectName": "AuthLibrary",
-        "projectPath": "D:\\GIT_Repos\\RGIC\\RGICAPI\\AuthLibrary\\AuthLibrary.csproj",
+        "projectPath": "D:\\RGIC_Git\\RGICAPI\\AuthLibrary\\AuthLibrary.csproj",
         "packagesPath": "C:\\Users\\genxa\\.nuget\\packages\\",
-        "outputPath": "D:\\GIT_Repos\\RGIC\\RGICAPI\\AuthLibrary\\obj\\",
+        "outputPath": "D:\\RGIC_Git\\RGICAPI\\AuthLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\GIT_Repos\\RGIC\\RGICAPI\\CRUDOperations\\CRUDOperations.csproj": {
-                "projectPath": "D:\\GIT_Repos\\RGIC\\RGICAPI\\CRUDOperations\\CRUDOperations.csproj"
+              "D:\\RGIC_Git\\RGICAPI\\CRUDOperations\\CRUDOperations.csproj": {
+                "projectPath": "D:\\RGIC_Git\\RGICAPI\\CRUDOperations\\CRUDOperations.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "D:\\GIT_Repos\\RGIC\\RGICAPI\\CRUDOperations\\CRUDOperations.csproj": {
+    "D:\\RGIC_Git\\RGICAPI\\CRUDOperations\\CRUDOperations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GIT_Repos\\RGIC\\RGICAPI\\CRUDOperations\\CRUDOperations.csproj",
+        "projectUniqueName": "D:\\RGIC_Git\\RGICAPI\\CRUDOperations\\CRUDOperations.csproj",
         "projectName": "CRUDOperations",
-        "projectPath": "D:\\GIT_Repos\\RGIC\\RGICAPI\\CRUDOperations\\CRUDOperations.csproj",
+        "projectPath": "D:\\RGIC_Git\\RGICAPI\\CRUDOperations\\CRUDOperations.csproj",
         "packagesPath": "C:\\Users\\genxa\\.nuget\\packages\\",
-        "outputPath": "D:\\GIT_Repos\\RGIC\\RGICAPI\\CRUDOperations\\obj\\",
+        "outputPath": "D:\\RGIC_Git\\RGICAPI\\CRUDOperations\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -162,14 +162,14 @@
         }
       }
     },
-    "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGIC.Core\\RGIC.Core.csproj": {
+    "D:\\RGIC_Git\\RGICAPI\\RGIC.Core\\RGIC.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGIC.Core\\RGIC.Core.csproj",
+        "projectUniqueName": "D:\\RGIC_Git\\RGICAPI\\RGIC.Core\\RGIC.Core.csproj",
         "projectName": "RGIC.Core",
-        "projectPath": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGIC.Core\\RGIC.Core.csproj",
+        "projectPath": "D:\\RGIC_Git\\RGICAPI\\RGIC.Core\\RGIC.Core.csproj",
         "packagesPath": "C:\\Users\\genxa\\.nuget\\packages\\",
-        "outputPath": "D:\\GIT_Repos\\RGIC\\RGICAPI\\RGIC.Core\\obj\\",
+        "outputPath": "D:\\RGIC_Git\\RGICAPI\\RGIC.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -190,11 +190,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\GIT_Repos\\RGIC\\RGICAPI\\AuthLibrary\\AuthLibrary.csproj": {
-                "projectPath": "D:\\GIT_Repos\\RGIC\\RGICAPI\\AuthLibrary\\AuthLibrary.csproj"
+              "D:\\RGIC_Git\\RGICAPI\\AuthLibrary\\AuthLibrary.csproj": {
+                "projectPath": "D:\\RGIC_Git\\RGICAPI\\AuthLibrary\\AuthLibrary.csproj"
               },
-              "D:\\GIT_Repos\\RGIC\\RGICAPI\\CRUDOperations\\CRUDOperations.csproj": {
-                "projectPath": "D:\\GIT_Repos\\RGIC\\RGICAPI\\CRUDOperations\\CRUDOperations.csproj"
+              "D:\\RGIC_Git\\RGICAPI\\CRUDOperations\\CRUDOperations.csproj": {
+                "projectPath": "D:\\RGIC_Git\\RGICAPI\\CRUDOperations\\CRUDOperations.csproj"
               }
             }
           }
