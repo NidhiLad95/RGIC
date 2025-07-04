@@ -1,0 +1,25 @@
+﻿# Ignore Visual Studio temporary files, build results, and user files
+.vs/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+
+# Rider project files
+.idea/
+
+# User-specific files
+*.swp
+*.tmp
+*.log
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Environment secrets
+secrets.json
+
+# Dependency caches
+packages/
