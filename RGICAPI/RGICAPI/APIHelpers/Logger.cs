@@ -19,7 +19,7 @@ namespace RGICAPI.APIHelpers
 
             using IDbConnection db = new SqlConnection(RGICHelpers.GetAppSettingValue(configuration, "ConnectionStrings:connectionString"));
 
-            await db.ExecuteScalarAsync("[Log].[UspErrorLogger]", new
+            await db.ExecuteScalarAsync("[UspErrorLogger]", new
             {
                 controller,
                 action,

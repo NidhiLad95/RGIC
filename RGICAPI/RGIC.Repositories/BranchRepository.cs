@@ -13,12 +13,13 @@ namespace RGIC.Repositories
         private readonly ICrudOperationService _crudOperationService = crudOperationService;
         private readonly IConfiguration _configuration = configuration;
 
-        public async Task<Response<DtoBranchMaster>> CreateBranch(DtoBranchMaster branch)
+        public async Task<Response<string>> CreateBranch(DtoBranchvCreate branch)
         {
-            branch.CreatedBy = Guid.NewGuid().ToString();
-            branch.CreatedOn = DateTime.UtcNow;
+            ////branch.CreatedBy = Guid.NewGuid().ToString();
+            //branch.CreatedBy = Guid.NewGuid();
+            //branch.CreatedOn = DateTime.UtcNow;
 
-            return await _crudOperationService.InsertAndGet<DtoBranchMaster>("[SP_Branch_Create]", branch);
+            return await _crudOperationService.InsertAndGet<string>("[SP_Branch_Create]", branch);
         }
 
         public async Task<Response<DtoBranchMaster>> UpdateBranch(DtoBranchMaster branch)
