@@ -6,6 +6,7 @@ using RGIC.Core.Account;
 using RGIC.Core.Branch;
 using RGIC.Core.Common;
 using RGIC.Core.DataProtector;
+using RGIC.Core.Product;
 using RGIC.Infrastructure;
 using RGIC.Repositories;
 using RGICAPI.Services.Filters;
@@ -31,6 +32,7 @@ namespace RGICAPI.Services.Configs
             services.AddScoped<Utilities>();
 
             services.AddScoped<IBranchRepo, BranchRepository>();
+            services.AddScoped<IProductRepo, ProductRepository>();
             return services;
         }
     }
