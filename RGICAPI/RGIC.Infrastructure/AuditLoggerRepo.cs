@@ -16,10 +16,10 @@ namespace RGIC.Infrastructure
 
         private ICrudOperationService _crudOperationService = crudOperationService;
         private readonly ICommonRepo _commonRepository = commonRepo;
-        public async Task<Response> Log(DtoAuditLog auditLog)
+        public async Task<Response<string>> Log(DtoAuditLog auditLog)
         {
 
-            var response = await _crudOperationService.InsertUpdateDelete<Response>("[Log].[UspSaveAuditLogger]", new
+            var response = await _crudOperationService.InsertUpdateDelete<string>("[UspSaveAuditLogger]", new
             {
                 auditLog.ModuleName,
                 auditLog.RowModificationIdentifier,
@@ -38,9 +38,9 @@ namespace RGIC.Infrastructure
             return response;
         }
 
-        public async Task<Response> SaveAuditLog(DtoAuditLogger auditLogger)
+        public async Task<Response<string>> SaveAuditLog(DtoAuditLogger auditLogger)
         {
-            return await _crudOperationService.InsertUpdateDelete<Response>("[Log].[UspSaveAuditLogger]", new
+            return await _crudOperationService.InsertUpdateDelete<string>("[UspSaveAuditLogger]", new
             {
                 auditLogger.ModuleName,
                 auditLogger.RowModificationIdentifier,

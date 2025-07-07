@@ -35,7 +35,8 @@ namespace CRUDOperations
         public bool Status { get; set; }
         public string? Message { get; set; }
         public List<T>? Data { get; set; }
-        
+        public int RecordsFiltered { get; set; }
+        public int TotalRecords { get; set; }
     }
 
 
@@ -102,5 +103,11 @@ namespace CRUDOperations
         public List<T6>? List6 { get; set; }
     }
 
+    public class StatusMessage
+    {
+        public int TotalRecords { get; set; }
+        public bool Status { get; set; }
+        public string? Message { get; set; }
+    }
 
 }

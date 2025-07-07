@@ -6,27 +6,25 @@ using System.Threading.Tasks;
 
 namespace RGIC.Core.Product.ProductDTO
 {
-    public class ProductMasterDTO
+    public class DtoProductMaster
     {
-        public string? Product_Subclass { get; set; }
-
-        public string? NEP_Clac_Type { get; set; }
-
-        public string? Product_Class { get; set; }
-
-        public string? Product_Category { get; set; }
-
-        public string? Product_sub_Category { get; set; }
-
-        public string? Product_Group { get; set; }
-
-        public string? ODTP_Filter { get; set; }
-
-        public bool Renewal_Motor { get; set; }
-
-        public bool Renewal_Health { get; set; }
-
-        public string? Fuel_Type { get; set; }
+        public int? productID { get; set; }
+        public int? ProductSubclassID { get; set; }
+        public string? NEPCalcType { get; set; }
+        public int? ProductClassID { get; set; }
+        public int? ProductCategoryID { get; set; }
+        public string? ProductSubCategory { get; set; }
+        public int? ProductGroupID { get; set; }
+        public string? ODTPFilter { get; set; }
+        public bool? RenewalMotor { get; set; }
+        public bool? RenewalHealth { get; set; }
+        public string? FuelType { get; set; }
+        public bool? IsActive { get; set; }
+        public bool? IsDelete { get; set; }
+        public Guid? CreatedBy { get; set; }
+        public Guid? UpdatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public DateTime? UpdatedOn { get; set; }
 
     }
 }

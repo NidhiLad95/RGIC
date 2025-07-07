@@ -25,8 +25,6 @@ namespace RGICAPI.Controllers
         [HttpPost("Create")]
         public async Task<IActionResult> Create([FromBody] DtoBranchvCreate branch)
         {
-            //var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            //branch.CreatedBy = !string.IsNullOrEmpty(User?.Identity?.Name) ? new Guid(User.Identity.Name).ToString() : Guid.Empty.ToString();
             branch.CreatedBy = !string.IsNullOrEmpty(User?.Identity?.Name) ? new Guid(User.Identity.Name) : Guid.Empty;
             
             var result = await _branch.CreateBranch(branch);
@@ -36,23 +34,23 @@ namespace RGICAPI.Controllers
         }
 
         [HttpPut("Update")]
-        public async Task<IActionResult> Update([FromBody] DtoBranchMaster branch)
+        public async Task<IActionResult> Update([FromBody] DtoBranchUpdate branch)
         {
             var result = await _branch.UpdateBranch(branch);
             return Ok(result);
         }
 
-        [HttpDelete("Delete/{branchId}")]
-        public async Task<IActionResult> Delete(int branchId)
+        [HttpDelete("Delete")]
+        public async Task<IActionResult> Delete([FromBody] DtoDeleteBranch dtoDelete)
         {
-            var result = await _branch.DeleteBranch(branchId);
+            var result = await _branch.DeleteBranch(dtoDelete);
             return Ok(result);
         }
 
-        [HttpGet("Get/{branchId}")]
-        public async Task<IActionResult> GetById(int branchId)
+        [HttpGet("GetById")]
+        public async Task<IActionResult> GetById([FromBody] DtoGetBranchById branchById)
         {
-            var result = await _branch.GetBranchById(branchId);
+            var result = await _branch.GetBranchById(branchById);
             return Ok(result);
         }
 

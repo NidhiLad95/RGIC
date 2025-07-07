@@ -39,6 +39,25 @@ c.SwaggerDoc("v1", new OpenApiInfo { Title = "RGIC API", Version = "v1" });
         },
         new string[]{}
     }});
+
+    c.AddSecurityDefinition("AccessKey", new OpenApiSecurityScheme
+    {
+        Name = "X-Access-Key",
+        Type = SecuritySchemeType.ApiKey,
+        In = ParameterLocation.Header,
+        Description = "Access key required in header"
+    });
+
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+{
+    {
+        new OpenApiSecurityScheme
+        {
+            Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "AccessKey" }
+        },
+        Array.Empty<string>()
+    }
+});
 });
 
 builder.Services.AddLogging(); // Ensure logging is available
@@ -67,6 +86,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
 
 var app = builder.Build();
 
+app.UseMiddleware<AccessKeyMiddleware>(); 
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 app.UseHttpsRedirection();
 app.UseAuthentication();

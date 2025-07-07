@@ -10,13 +10,11 @@ namespace RGIC.Core.Branch
 {
     public interface IBranchRepo
     {
-        //Task<Response<DtoBranchvCreate>> CreateBranch(DtoBranchvCreate branch);
-        Task<Response<string>> CreateBranch(DtoBranchvCreate branch);
-        Task<Response<DtoBranchMaster>> UpdateBranch(DtoBranchMaster branch);
-        Task<Response> DeleteBranch(int branchId);
-        Task<Response<DtoBranchMaster>> GetBranchById(int branchId);
-        //Task<Response<DtoBranchGetAll>> GetAllBranches();
-
+        
+        Task<Response<DtoBranchMaster>> CreateBranch(DtoBranchvCreate branch);
+        Task<Response<DtoBranchMaster>> UpdateBranch(DtoBranchUpdate branch);
+        Task<Response<string>> DeleteBranch(DtoDeleteBranch DtoDelete);
+        Task<Response<DtoBranchMaster>> GetBranchById(DtoGetBranchById dtoGetbyId);        
         Task<ResponseGetList<DtoBranchMaster>> GetAllBranches();
     }
 }

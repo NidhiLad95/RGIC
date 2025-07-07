@@ -11,6 +11,11 @@ namespace RGIC.Core.Product
 {
     public interface IProductRepo
     {
-        Task<Response<string>> CreateProduct(DtoProductCreate objProduct);
+        //Task<Response<string>> CreateProduct(DtoProductCreate objProduct)
+        Task<Response<DtoProductMaster>> CreateProduct(DtoProductCreate objProduct);
+        Task<Response<DtoProductMaster>> UpdateProduct(DtoProductMaster objProduct);
+        Task<Response<string>> DeleteProduct(DtoProductDelete DtoDelete);
+        Task<Response<DtoProductMaster>> GetProductById(DtoGetProductById dtoGetbyId);
+        Task<ResponseGetList<DtoProductMaster>> GetAllProducts();
     }
 }

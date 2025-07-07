@@ -18,13 +18,84 @@ namespace RGIC.Repositories
         private readonly ICrudOperationService _crudOperationService = crudOperationService;
         private readonly IConfiguration _configuration = configuration;
 
-        public async Task<Response<string>> CreateProduct(DtoProductCreate objProduct)
+        public async Task<Response<DtoProductMaster>> CreateProduct(DtoProductCreate objProduct)
         {
-            objProduct.CreatedBy = Guid.NewGuid();
-            
 
-            return await _crudOperationService.InsertAndGet<string>("[UspProductCreate]", objProduct);
+            var data = await _crudOperationService.InsertAndGet<string>("[UspProductCreate]", objProduct);
+            return new Response<DtoProductMaster>
+            {
+                Status = data.Status,
+                Message = data.Message,
+
+                Data = new DtoProductMaster
+                {
+                    productID = Convert.ToInt32(data.Data),
+                    CreatedBy = objProduct.CreatedBy,
+                    FuelType = objProduct.FuelType,
+                    NEPCalcType = objProduct.NEPCalcType,
+                    ODTPFilter = objProduct.ODTPFilter,
+                    ProductCategoryID = objProduct.ProductCategoryID,   
+                    ProductClassID = objProduct.ProductClassID,
+                    ProductGroupID = objProduct.ProductGroupID,
+                    ProductSubCategory = objProduct.ProductSubCategory,
+                    ProductSubclassID = objProduct.ProductSubclassID,
+                    RenewalHealth =objProduct.RenewalHealth,
+                    RenewalMotor   = objProduct.RenewalMotor
+                    
+
+                }
+            };
         }
+
+        public async Task<Response<DtoProductMaster>> UpdateProduct(DtoProductMaster objProduct)
+        {
+            var data = await _crudOperationService.InsertUpdateDelete<string>("[UspProductupdate]", objProduct);
+            return new Response<DtoProductMaster>
+            {
+                Status = data.Status,
+                Message = data.Message,
+
+                Data=new DtoProductMaster
+                {
+                    productID = Convert.ToInt32(data.Data),
+                    CreatedBy = objProduct.CreatedBy,
+                    FuelType = objProduct.FuelType,
+                    NEPCalcType = objProduct.NEPCalcType,
+                    ODTPFilter = objProduct.ODTPFilter,
+                    ProductCategoryID = objProduct.ProductCategoryID,
+                    ProductClassID = objProduct.ProductClassID,
+                    ProductGroupID = objProduct.ProductGroupID,
+                    ProductSubCategory = objProduct.ProductSubCategory,
+                    ProductSubclassID = objProduct.ProductSubclassID,
+                    RenewalHealth = objProduct.RenewalHealth,
+                    RenewalMotor = objProduct.RenewalMotor
+
+
+                }
+            };
+        }
+
+
+        public async Task<Response<string>> DeleteProduct(DtoProductDelete DtoDelete)
+        {
+
+
+
+            return await _crudOperationService.InsertUpdateDelete<string>("[UspProductDelete]", DtoDelete);
+
+        }
+
+
+        public async Task<Response<DtoProductMaster>> GetProductById(DtoGetProductById dtoGetbyId)
+        {
+            return await _crudOperationService.GetSingleRecord<DtoProductMaster>("[UspProductGetById]", dtoGetbyId);
+        }
+
+        public async Task<ResponseGetList<DtoProductMaster>> GetAllProducts()
+        {
+            return await _crudOperationService.GetList<DtoProductMaster>("[UspProductMasterGetAll]");
+        }
+
 
     }
 }

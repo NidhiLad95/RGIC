@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RGIC.Core.Branch.BranchDTOs
 {
-    public class DtoBranchMaster
+    public class DtoBranchUpdate
     {
         public int BranchID { get; set; }
         public int RegionMarket_Type_ID { get; set; }
@@ -14,19 +14,13 @@ namespace RGIC.Core.Branch.BranchDTOs
         public string? BranchType { get; set; }
         public string? Location { get; set; }
         public string? BranchStatus { get; set; }
-        public  string? Zone {  get; set; }
-        public  string? NewZone {  get; set; }
-        public  string? State {  get; set; }
+        public string? Zone { get; set; }
+        public string? NewZone { get; set; }
+        public string? State { get; set; }
         public string? RegionCity { get; set; }
         public string? BranchTP { get; set; }
-        public string? MarketType{ get; set; }
-        public bool? IsActive{ get; set; }
-        public bool? IsDeleted { get; set; }
-        public Guid? CreatedBy{ get; set; }
-        public DateTime?CreatedOn { get; set; }
-        public Guid?UpdatedBy { get; set; }
-
+        public string? MarketType { get; set; }
+        public bool? IsActive { get; set; }        
+        public Guid? UpdatedBy { get; set; }
     }
-
-    
 }

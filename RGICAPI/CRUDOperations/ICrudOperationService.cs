@@ -64,14 +64,23 @@ namespace CRUDOperations
         /// <returns>Genric Type T Supplied in PatientDelete</returns>
         Task<T> Delete<T>(string storedProcedureName, DynamicParameters parameters);
 
+        ///// <summary>
+        ///// This function can be used to perform insert update delete transactions
+        ///// </summary>
+        ///// <typeparam name="T">Class to cast db response</typeparam>
+        ///// <param name="storedProcedureName">your procedure name</param>
+        ///// <param name="spParamsPocoMapper">SP based model class</param>
+        ///// <returns>procedure return message casted in class</returns>
+        //Task<T> InsertUpdateDelete<T>(string storedProcedureName, object spParamsPocoMapper);
+
         /// <summary>
-        /// This function can be used to perform insert update delete transactions
+        /// This Method will Insert data into table and return Status, Message, Data (Of T type)
         /// </summary>
         /// <typeparam name="T">Class to cast db response</typeparam>
         /// <param name="storedProcedureName">your procedure name</param>
         /// <param name="spParamsPocoMapper">SP based model class</param>
         /// <returns>procedure return message casted in class</returns>
-        Task<T> InsertUpdateDelete<T>(string storedProcedureName, object spParamsPocoMapper);
+        Task<Response<T>> InsertUpdateDelete<T>(string storedProcedureName, object spParamsPocoMapper);
 
         /// <summary>
         ///

@@ -116,7 +116,7 @@ namespace CRUDOperations
                     );
 
                 Response<T> response = result.Read<Response<T>>().FirstOrDefault()!;
-                response.Data = response.Status ? result.Read<T>().FirstOrDefault() : default;
+               // response.Data = response.Status ? result.Read<T>().FirstOrDefault() : default;
                 return response;
             }
             catch (Exception)
@@ -180,19 +180,59 @@ namespace CRUDOperations
             return Task.FromResult(response);
         }
 
-        public Task<T> InsertUpdateDelete<T>(string storedProcedureName, object spParamsPocoMapper)
+        //public Task<T> InsertUpdateDelete<T>(string storedProcedureName, object spParamsPocoMapper)
+        //{
+        //    T response;
+        //    using var connections = Connection;
+        //    try
+        //    {
+        //        response = connections.QueryFirstOrDefault<T>(
+        //            sql: storedProcedureName,
+        //            param: GenricsDynamicParamterMapper(spParamsPocoMapper),
+        //            commandTimeout: null,
+        //            commandType: CommandType.StoredProcedure
+        //            )!;
+
+        //    }
+        //    catch (Exception Ex)
+        //    {
+        //        throw;
+        //    }
+        //    finally
+        //    {
+        //        if (connections.State == ConnectionState.Open)
+        //            connections.Close();
+        //    }
+        //    return Task.FromResult(response);
+        //}
+
+
+
+        
+        public Task<Response<T>> InsertUpdateDelete<T>(string storedProcedureName, object spParamsPocoMapper)
         {
-            T response;
+            Response<T> response; //= result.Read<Response<T>>().FirstOrDefault()!;
+            //response.Data = response.Status ? result.Read<T>().FirstOrDefault() : default;
+            //T response;
             using var connections = Connection;
             try
             {
-                response = connections.QueryFirstOrDefault<T>(
+               //var result = connections.QueryFirstOrDefault(
+               //     sql: storedProcedureName,
+               //     param: GenricsDynamicParamterMapper(spParamsPocoMapper),
+               //     commandTimeout: null,
+               //     commandType: CommandType.StoredProcedure
+               //     )!;
+
+                response = connections.QueryFirstOrDefault(
                     sql: storedProcedureName,
                     param: GenricsDynamicParamterMapper(spParamsPocoMapper),
                     commandTimeout: null,
                     commandType: CommandType.StoredProcedure
                     )!;
 
+                //response = result.Read<Response<T>>().FirstOrDefault()!;
+                //response.Data = response.Status ? result.Read<T>().FirstOrDefault() : default;
             }
             catch (Exception Ex)
             {
@@ -206,7 +246,7 @@ namespace CRUDOperations
             return Task.FromResult(response);
         }
 
-        
+
         public async Task<Response<T>> GetSingleRecord<T>(string storedProcedureName, DynamicParameters parameters)
         {
             using var connections = Connection;
@@ -497,7 +537,7 @@ namespace CRUDOperations
         public async Task<ResponseGetList<T>> GetList<T>(string storedProcedureName)
         {
             using var connections = Connection;
-            ResponseGetList<T> res = new ResponseGetList<T>();
+            ResponseGetList<T> response = new ResponseGetList<T>();
             try
             {
                 var result = await connections.QueryMultipleAsync(
@@ -506,13 +546,27 @@ namespace CRUDOperations
                     commandType: CommandType.StoredProcedure
                     );
 
-                res = await result.ReadFirstOrDefaultAsync<ResponseGetList<T>>();
-                res.Data = (await result.ReadAsync<T>()).ToList();
+
+                var data = (await result.ReadAsync<T>()).ToList();
+                var statusMessage = await result.ReadFirstOrDefaultAsync<StatusMessage>();
+
+                if (data != null && statusMessage != null)
+                {
+                    response.Data = data;
+                    response.Message = statusMessage.Message;
+                    response.Status = statusMessage.Status;
+                    //response.Total_count = data.Count();
+                    //response.TotalRecords = statusMessage.TotalRecords;
+
+                }
+                else
+                {
+                    response.Status = false;
+                    response.Message = "Authentication failed.";
+                }
+                return response;
 
                 
-
-                
-                return res;
             }
             catch (Exception)
             {
