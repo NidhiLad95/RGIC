@@ -2,6 +2,29 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/RGICAPI/.vs/RGICAPI/FileContentIndex
-/RGICAPI/.vs/RGICAPI/v17
-/RGICAPI/.vs/RGICAPI/DesignTimeBuild
+# Ignore Visual Studio temporary files, build results, and user files
+.vs/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+
+# Rider project files
+.idea/
+
+# User-specific files
+*.swp
+*.tmp
+*.log
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Environment secrets
+secrets.json
+
+# Dependency caches
+packages/
+
